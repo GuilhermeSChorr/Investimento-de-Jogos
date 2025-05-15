@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Investidor</title>
+    <link rel="stylesheet" href="cadastraInvestidor.css">
+</head>
+<body class="bodycadastro">
+   
+    <h2 class="cadastroh2">Cadastro de Investidor</h2>
+    <form class="formularioinvestidores" id="cadastroForm" action="processaCadastroInvestidor.php" method="post">
+        <label class="labelcadatroinvestidores">Nome completo</label>
+        <input class="inputcadastro" type="text" name="nome" required>
+        <label class="labelcadatroinvestidores">Email</label>
+        <input class="inputcadastro" type="email" name="email" required>
+        <label class="labelcadatroinvestidores">Objetivos Financeiros</label>
+        <input class="inputcadastro" type="text" name="objfinanceiros" required>
+
+        <button class="buttoncadastra" type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>

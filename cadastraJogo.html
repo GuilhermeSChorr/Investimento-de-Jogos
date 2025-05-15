@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Jogos</title>
+    <link rel="stylesheet" href="cadastraJogo.css">
+</head>
+<body class="bodycadastro">
+   
+   
+   <h2 class="cadastroh2">Cadastro de Jogos</h2>
+   
+  <form class="formulariojogos" id="cadastroForm" action="processaCadastroJogo.php" method="post">
+        <label class="labelcadatrojogos">Nome do jogo</label>
+        <input class="inputcadastro" type="text" name="nome" required> <br>
+        <label class="labelcadatrojogos">Preço</label>
+        <input class="inputcadastro" type="number" step="any" name="preco" required> <br>
+        <label class="labelcadatrojogos">Quantidade de Estoque</label>
+        <input class="inputcadastro" type="number" name="quantidadeestoque" required> <br>
+
+        <button class="buttoncadastra" id="botao" type="submit">Cadastrar</button>
+    </form>
+
+</body>
+</style>
+</html>
