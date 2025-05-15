@@ -1,0 +1,11 @@
+CREATE TABLE investidores(
+id SERIAL PRIMARY KEY,
+nome VARCHAR(255),
+email VARCHAR(255),
+objfinanceiros VARCHAR(255))
+
+CREATE TABLE jogos(
+id SERIAL PRIMARY KEY,
+nome VARCHAR(255),
+preco DECIMAL(10,2),
+quantidadeestoque INT)
